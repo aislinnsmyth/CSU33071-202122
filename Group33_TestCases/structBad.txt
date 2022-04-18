@@ -1,0 +1,25 @@
+## Group 33
+
+## - Partner Róisín Ní Bhriain
+## - Partner Aislinn Addison-Smyth
+
+## Valid: No
+
+##Test description: testing bad struct use, trying to do loo.u.g where g is not declared.
+
+
+struct struc {
+	int y
+}
+
+struct sum {
+	string h,
+	struc u
+}
+
+void  main () {
+	sum loo;
+		printf("string");
+	loo.u.g = 90;
+
+}
